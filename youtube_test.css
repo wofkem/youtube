@@ -183,6 +183,9 @@ button svg{
     margin: 56px 0 0 240px;
    
 }
+.video_title{
+    padding-left:8px;
+}
 .video_set{
     display: inline-block;
     width: 330px;
@@ -193,12 +196,11 @@ button svg{
     width: 330px;
     height: 170px;
     margin-bottom: 10px;
-    padding: 6px 0 0 8px;
+    background-color: #e5e5e5;
 }
 .video_title{
     width: 330px;
     height: 30px;
-    background-color: #e5e5e5; 
 }
 .video img{
     width: 330px;
