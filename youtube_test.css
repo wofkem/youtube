@@ -182,6 +182,9 @@ button svg{
     display: inline-block;
     margin: 56px 0 0 240px;
 }
+.video_title{
+    padding: 6px 0 0 8px;
+}
 .video_set{
     display: inline-block;
     width: 330px;
