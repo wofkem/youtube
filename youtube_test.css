@@ -2,6 +2,20 @@
     margin: 0;
     padding: 0;
 }
+::-webkit-scrollbar {
+    width: 16px;
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 4px solid transparent;
+    background-clip: content-box;
+    background-color: #606060;
+}
+::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+}
 .top_bar{
     width: 100%;
     height: 56px;
@@ -322,17 +336,3 @@ button svg{
     padding: 0 24px;
 }
 
-::-webkit-scrollbar {
-    width: 16px;
-    background-color: transparent;
-}
-::-webkit-scrollbar-thumb {
-    border-radius: 8px;
-    border: 4px solid transparent;
-    background-clip: content-box;
-    background-color: #606060;
-}
-::-webkit-scrollbar-button {
-    width: 0;
-    height: 0;
-}
